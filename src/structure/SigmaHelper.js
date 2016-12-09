@@ -1,7 +1,7 @@
 require('es6-shim');
 var _ = require('underscore');
 
-var MultiIterator = require('gremlin-core-js/src/process/util/multiiterator');
+var MultiIterator = require('gremlin-core-js/src/process/util/MultiIterator');
 
 var SigmaVertexIterator = require('../utils/SigmaVertexIterator');
 

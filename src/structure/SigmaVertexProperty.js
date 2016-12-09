@@ -3,7 +3,7 @@ var inherits = require('util').inherits;
 var _ = require('underscore');
 
 var ElementHelper = require('gremlin-core-js/src/structure/util/ElementHelper');
-var GraphKey = require('gremlin-core-js/src/structure/Graph.Key');
+var GraphKey = require('gremlin-core-js/src/structure/graph.key');
 
 var SigmaElement = require('./SigmaElement');
 // var SigmaHelper = require('./SigmaHelper');

@@ -1,7 +1,7 @@
 var inherits = require('util').inherits;
 
 var _ = require('underscore');
-var Edge = require('gremlin-core-js/src/structure/edge');
+var Edge = require('gremlin-core-js/src/structure/Edge');
 
 var SigmaElement = require('./SigmaElement');
 

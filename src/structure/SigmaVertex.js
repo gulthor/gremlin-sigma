@@ -2,8 +2,8 @@ var inherits = require('util').inherits;
 
 var _ = require('underscore');
 
-var Vertex = require('gremlin-core-js/src/structure/vertex');
-var VertexProperty = require('gremlin-core-js/src/structure/vertexproperty');
+var Vertex = require('gremlin-core-js/src/structure/Vertex');
+var VertexProperty = require('gremlin-core-js/src/structure/VertexProperty');
 var ElementHelper = require('gremlin-core-js/src/structure/util/ElementHelper');
 
 var SigmaHelper = require('./SigmaHelper');

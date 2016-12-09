@@ -3,9 +3,9 @@ var inherits = require('util').inherits;
 require('es6-shim');
 var _ = require('lazy.js');
 
-var GraphStep = require('gremlin-core-js/src/process/step/sideEffect/graphstep');
-var Vertex = require('gremlin-core-js/src/structure/vertex');
-var Edge = require('gremlin-core-js/src/structure/edge');
+var GraphStep = require('gremlin-core-js/src/process/step/sideEffect/GraphStep');
+var Vertex = require('gremlin-core-js/src/structure/Vertex');
+var Edge = require('gremlin-core-js/src/structure/Edge');
 var HasContainer = require('gremlin-core-js/src/structure/util/HasContainer');
 
 var SigmaHelper = require('../../../structure/SigmaHelper');
